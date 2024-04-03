@@ -1,5 +1,8 @@
 conta = input('conta?')
-itens = ['+', '-', 'x','/']
+itens = {'+': lambda x, y: x + y,
+         '-': lambda x, y: x - y,
+         'x': lambda x, y: x * y,
+         '/': lambda x, y: x / y}
 catch = False
 
 for item in itens:
@@ -13,6 +16,5 @@ else:
     n1 = conta[:indice]
     n2 = conta[indice +1:]
     norm = conta[indice]
-    print (n1)
-    print (n2)
-    print (norm)
+    resultado = itens[item](n1, n2)
+    print(resultado)

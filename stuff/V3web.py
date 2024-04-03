@@ -1,7 +1,10 @@
 import re
 
 numeros = input('conta?') 
-itens = ['+','-','x','/']
+itens = {'+': lambda x, y: x + y,
+         '-': lambda x, y: x - y,
+         'x': lambda x, y: x * y,
+         '/': lambda x, y: x / y}
 catch = False
 
 def calc():
@@ -31,3 +34,5 @@ else:
     print(calculo.primeiro_numero)
     print(calculo.contador)
     print(calculo.segundo_numero)
+    resultado = itens[contador](primeiro_numero, segundo_numero)
+    print(f'o resultado é {resultado}')
