@@ -1,0 +1,535 @@
+iteração 1
+
+multiplicado = int(input('multiplicador?'))
+max = int(input('max?'))
+multiplicador = multiplicado
+resultado = multiplicado + multiplicador
+vezescontadas = 0
+
+while vezescontadas < max:
+    resultado = resultado + multiplicador
+    print (resultado) 
+
+#problema atual, resultado == resultado + * 2 prentendido
+
+
+iteração 2, solução 1, funcional, solução atual
+
+
+multiplicado = int(input('multiplicador?'))
+max = int(input('max?'))
+multiplicador = multiplicado
+resultado = multiplicado + multiplicador
+vezescontadas = 0
+
+while vezescontadas < max:
+    resultado = resultado + multiplicador
+    print (resultado - multiplicador * 2)
+
+#problema dessa iteração: completamente funcional, mas não parece ser a solução certa 
+
+
+iteração 3, não testada
+
+
+multiplicado = int(input('multiplicador?'))
+max = int(input('max?'))
+multiplicador = multiplicado
+resultado = multiplicado + multiplicador
+vezescontadas = 0
+
+while vezescontadas < max:
+    print (multiplicado)
+    print (resultado)
+    resultado = resultado + multiplicador
+    print (resultado) 
+
+#problema dessa iteração: parece ser mais complexa do que a solução atual
+
+
+
+
+
+
+-----------------------------------------------------CALCULADORA RASCUNHO---------------------------------------------------------
+
+#Iteração 1, funcional, uso unico
+
+print ('Que tipo de conta quer fazer hoje, meu compatriarcado?')
+TipoConta = int(input('(1)adição (2)subtração (3)multiplicação (4)divisão'))
+
+if TipoConta = 1:
+    print('-----------------------------------------Adição selecionada!---------------------------------------------------------') 
+    adição1 = int(input('Manda o primeiro numero, meu configurado!'))
+    adição2 = int(input('Manda o segundo numero, meu consignado!'))
+    resultadoadc = adição1 + adição2
+    print('O resultado é {} meu marcado!', resultadoadc)
+
+elif TipoConta = 2:
+    print('---------------------------------------Subtração selecionada!-------------------------------------------------------') 
+    sub1 = int(input('Manda o primeiro numero, meu conhecedor!'))
+    sub2 = int(input('Manda o segundo numero, meu gestor!'))
+    resultadosub = sub1 - sub2
+    print('O resultado é [] meu campeão!', resultadosub)
+
+elif TipoConta = 3:
+
+print('------------------------------------------Multiplicação selecionada!-----------------------------------------------------') 
+    multi1 = int(input('Manda o multiplicado, meu patrão!'))
+    multi2 = int(input('Manda o multiplicador, meu professor!'))
+    resultadomulti = multi1 * multi2
+    print('O resultado é {} meu encontrado!', resultadomulti)
+
+elif TipoConta = 4
+
+print('----------------------------------------Divisão selecionada!-------------------------------------------------------------') 
+    div1 = int(input('Manda o numero a ser dividio, meu marcante!'))
+    div2 = int(input('Manda o numero a dividir por, meu achante!'))
+    resultadodiv = div1 / div2
+    print('O resultado é {} meu mandante!', resultadodiv)
+
+else:
+    print('Numero invalido:( perdeu os oculos de leitura, caixonte?')
+    print('Vamos tentar de novo!')
+    TipoConta = int(input('(1)adição (2)subtração (3)multiplicação (4)divisão'))
+
+#problemas atuais: input no final não funciona, programa precisa ser reiniciado para segundo uso
+
+
+#Iteração 2, funcional, falta funções
+
+loop = True
+while loop = True
+
+    print ('Que tipo de conta quer fazer hoje, meu compatriarcado?')
+    TipoConta = int(input('(1)adição (2)subtração (3)multiplicação (4)divisão'))
+
+    if TipoConta = 1:
+        print('---------------------------------------Adição selecionada!-------------------------------------------------------') 
+        adição1 = int(input('Manda o primeiro numero, meu configurado!'))
+        adição2 = int(input('Manda o segundo numero, meu consignado!'))
+        resultadoadc = adição1 + adição2
+        print('O resultado é {} meu marcado!', resultadoadc)
+
+    elif TipoConta = 2:
+        print('------------------------------------Subtração selecionada!----------------------------------------------------') 
+        sub1 = int(input('Manda o primeiro numero, meu conhecedor!'))
+        sub2 = int(input('Manda o segundo numero, meu gestor!'))
+        resultadosub = sub1 - sub2
+        print('O resultado é [] meu campeão!', resultadosub)
+
+    elif TipoConta = 3:
+
+        print('-------------------------------------Multiplicação selecionada!------------------------------------------------') 
+        multi1 = int(input('Manda o multiplicado, meu patrão!'))
+        multi2 = int(input('Manda o multiplicador, meu professor!'))
+        resultadomulti = multi1 * multi2
+        print('O resultado é {} meu encontrado!', resultadomulti)
+
+    elif TipoConta = 4
+
+       print('------------------------------------Divisão selecionada!----------------------------------------------------------') 
+       div1 = int(input('Manda o numero a ser dividio, meu marcante!'))
+       div2 = int(input('Manda o numero a dividir por, meu achante!'))
+       resultadodiv = div1 / div2
+       print('O resultado é {} meu mandante!', resultadodiv)
+
+    else:
+       print('Numero invalido:( perdeu os oculos de leitura, caixonte?')
+       fechar = int(input('(1) para tentar de novo, qualquer outra coisa para fechar'))
+   if fechar == 1:
+       print('reiniciando...')
+   else:
+       loop = False
+
+#problemas atuais: código muito repetitivo, acho que pode ser diminuido se o usuario der o input direto do tipo de conta (1*3 direto ao invez de multiplicar 1 por 3)
+
+#adicionar na próxima iteração: modo complexo, usuario pode ver cada iteração até a conta dele chegar ao resultado final
+#adicionar na próxima iteração: modo de repetir o mesmo tipo de contas a não ser que o input do usuario peça para voltar ao menu
+#adicionar na próxima iteração: break direto nas contas
+#adicionar na próxima iteração: tornar possivel usuario fazer contas usando direto o resultado de uma ultima conta
+#adicionar na próxima iteração: tornar TipoConta um array para facilitar ideia anterior
+
+#adicionar em versão futura: com código resumido, tornar apelidos do usuario em lista para ser chamada aleatoriamente
+
+
+Iteração 3. funcional, atual
+
+
+#modo complexo adicionado
+#a adicionar
+#break direto das contas tornado redundante
+#cógido [uniamachina] pronto para adicionar resultados antigos nas próximas contas, a ser adicionado
+#tornado redundante
+
+
+repetição = True
+
+while repetição:
+    print('Que tipo de conta quer fazer hoje, meu compatriarcado?')
+    TipoConta = int(input('(1)adição (2)subtração (3)multiplicação (4)divisão (0) fechar'))
+    fixcomp = input('Quer ver como chegamos ao resultado, me sumonado? [Sim] ou [Não]')
+    complexo = fixcomp.lower()
+
+    if TipoConta == 1:
+        print('-----------------------------------------Adição selecionada!---------------------------------------------------------')
+        adição1 = int(input('Manda o primeiro numero, meu configurado!'))
+        adição2 = int(input('Manda o segundo numero, meu consignado!'))
+        resultadoadc = adição1 + adição2
+        resultadoadccomp = adição1
+        if complexo.lower() == 'sim' or 's':
+            while resultadoadccomp < resultadoadc:
+                resultadoadccomp = resultadoadccomp + 1
+                print (resultadoadccomp)
+            print(f'O resultado é {resultadoadc} meu marcado!')
+
+
+    elif TipoConta == 2:
+        print('---------------------------------------Subtração selecionada!-------------------------------------------------------')
+        sub1 = int(input('Manda o primeiro numero, meu conhecedor!'))
+        sub2 = int(input('Manda o segundo numero, meu gestor!'))
+        resultadosub = sub1 - sub2
+        resultadosubcomp = sub1
+        if complexo.lower() == 'sim' or 's':
+            while resultadosubcomp > resultadosub:
+                resultadosubcomp = resultadosubcomp - 1
+                print (resultadosubcomp)
+        print(f'O resultado é {resultadosub} meu campeão!')
+        
+
+
+    elif TipoConta == 3:
+
+        print('------------------------------------------Multiplicação selecionada!-----------------------------------------------------')
+        multi1 = int(input('Manda o multiplicado, meu patrão!'))
+        multi2 = int(input('Manda o multiplicador, meu professor!'))
+        resultadomulti = multi1 * multi2
+        resultadomulticomp = multi1
+        if complexo.lower() == 'sim' or 's':
+            while resultadomulticomp < resultadomulti:
+                resultadomulticomp = resultadomulticomp + multi1
+                print (resultadomulticomp)
+        print(f'O resultado é {resultadomulti} meu encontrado!')
+
+    elif TipoConta == 4:
+
+        print('----------------------------------------Divisão selecionada!-------------------------------------------------------------')
+        div1 = int(input('Manda o numero a ser dividio, meu marcante!'))
+        div2 = int(input('Manda o numero a dividir por, meu achante!'))
+        resultadodiv = div1 / div2
+        print(f'O resultado é {resultadodiv} meu mandante!')
+
+    elif TipoConta == 0:
+        repetição = False
+        break
+
+    else:
+        print('Numero invalido:( perdeu os oculos de leitura, caixonte?')
+        print('Vamos tentar de novo!')
+        repetiçãover = int(input('[1]para repetir, qualquer outra coisa para desistir'))
+        if repetiçãover == 1:
+            print('repetindo...')
+        else:
+            repetição = False
+
+#adicionar na próxima iteração: modo de repetir o mesmo tipo de contas a não ser que o input do usuario peça para voltar ao menu
+#adicionar na próxima iteração: implementar [Uniamachina]
+#adicionar na próxima iteração: tornar apelidos um array para tornar interação com usuario mais natural
+
+
+
+
+
+
+
+--------V2-------
+
+Hipótese versão otimizada
+
+conta = input('conta?')
+indice = conta.find('x', '+', '-', '/')
+primeiro_numero - conta[0:indice]
+segundo_numero = conta[indice:]
+sinal = conta[indice]
+
+resultado = int(primeiro_numero) sinal int(segundo_numero) ? (achar forma de fazer isso funcionar)
+
+#Acabou que tornar a conta em uma lista foi uma boa ideia
+
+
+
+---- Iteração 2
+
+conta = input('conta?')
+indice = conta.find('x', '+', '-', '/')
+primeiro_numero - conta[0:indice]
+segundo_numero = conta[indice:]
+
+if (sinal) in indice:
+    result = int(primeiro_numero) (sinal) int(segundo_numero)
+    print (result)
+else:
+    print('Erro! Sinal não reconhecido ou inexistente!')
+
+#Ainda exige uma função pra cada sinal, pode ser melhor otimizado
+
+resultado = int(primeiro_numero) sinal int(segundo_numero) ? (achar forma de fazer isso funcionar)
+
+
+
+---- Iteração 3
+
+conta = input('conta?')
+itens = ['+', '-', 'x','/']
+for item in itens:
+    indice = conta.find(item)
+
+
+n2 = conta[indice:]
+n1 = conta[0:indice]
+norm = conta[indice]
+print (n1)
+print (n2)
+
+#printando n1 fora de indice mas tirando 2 numeros por algum motivo??????????
+#indice é a posição 0?
+
+
+
+----Iteração 4
+conta = input('conta?')
+itens = ['+', '-', 'x','/']
+for item in itens:
+    indice = conta.find(item)
+
+if indice == -1:
+    print ('erro')
+else:
+    n2 = conta[indice:]
+    n1 = conta[:indice]
+    print (n1)
+    print (n2)
+    print (indice)
+	
+#indice = -1??????
+
+
+
+----Iteração 5, funcional, incompleta
+conta = input('conta?')
+itens = ['+', '-', 'x','/']
+catch = False
+
+for item in itens:
+    indice = conta.find(item)
+    if indice != -1:
+        break
+
+if indice == -1:
+    print ('erro')
+else:
+    n1 = conta[:indice]
+    n2 = conta[indice +1:]
+	norm = conta[indice]
+    print (n1)
+    print (n2)
+    print (norm)
+
+#problema encontrado, indice ficava caçando pelos itens em itens indefinidamente e por isso dava erro fora de 100% encontrado
+#agora descobrir como esse código vai fazer as contas
+
+
+
+----Iteração 6 #muda print para raiseerror em caso de indiceerro
+conta = input('conta?')
+itens = ['+', '-', 'x','/']
+catch = False
+
+for item in itens:
+    indice = conta.find(item)
+    if indice != -1:
+        break
+
+if indice == -1:
+    raise ValueError('Denominador invalido ou ausente!')
+else:
+    n1 = conta[:indice]
+    n2 = conta[indice +1:]
+	norm = conta[indice]
+    print (n1)
+    print (n2)
+    print (norm)
+
+
+
+----Iteração 7 #FUNCIONAL. itens precisava ser funções. Precisei de copiar o código diretamente pra essa
+
+conta = input('conta?')
+itens = {'+': lambda x, y: x + y,
+         '-': lambda x, y: x - y,
+         'x': lambda x, y: x * y,
+         '/': lambda x, y: x / y}
+
+indice = None
+for item in itens:
+    indice = conta.find(item)
+    if indice != -1:
+        break
+
+if indice is None:
+    raise ValueError('Operador inválido ou ausente!')
+else:
+    n1 = int(conta[:indice])
+    n2 = int(conta[indice + 1:])
+    operador = conta[indice]
+    resultado = itens[item](n1, n2)
+    print(f'o resultado é {resultado}')
+
+
+
+
+
+
+----V3.web (objetivo, tornar possivel multiplas contas)
+
+
+conta = 2+2-2 
+itens = ['x', '/', '+','-']
+catch = False
+
+def calc()
+	for item in itens:
+    		indice = conta.find(item)
+    		if indice != -1:
+        	break
+
+	if indice == -1:
+    		print ('erro')
+	else:
+    		n1 = conta[:indice]
+    		n2 = conta[indice +1:]
+		norm = conta[indice]
+(código para resolver conta)
+resultado = 4
+		return (resultado)
+
+def removedor():
+    remov = [n1, norm, n2]
+    if conta in remov:
+        conta= conta.remove(remov)
+
+while conta != '':
+	calc()
+	print (resultado)
+	removedor()
+
+
+
+
+
+----iteração 2 (teste)
+
+import re
+conta = input('conta') 
+itens = ['x', '/', '+','-']
+catch = False
+
+def calc()
+	separador = re.compile('[0-9] {1,99} [x/+-] [0-9]{1,99}')
+	buscador = separador.search(conta) #contramedida, impede que o programa aceite qualquer input que contenha algo presente em [itens]
+	if buscador:
+		for item in itens:
+    			indice = conta.find(item)
+    			if indice != -1:
+        			break
+
+		if indice == -1:
+    			print ('erro')
+		else:
+    			n1 = conta[:indice]
+    			n2 = conta[indice +1:]
+			norm = conta[indice]
+(código para resolver conta)
+resultado = 4
+		return (resultado)
+	else:
+		print ('conta invalida, por favor digite apenas números')
+
+def removedor():
+    remov = [n1, norm, n2]
+    if conta in remov:
+        conta= conta.remove(remov)
+
+
+
+------- Iteração 3 #novo método de contas, mais limpo e usando comandos padrões da industria. Facilita na transição web
+#quebrado, def usado de forma errada.
+import re
+numeros = input('conta?') 
+itens = ['+','-','x','/']
+catch = False
+
+def calc()
+	separador = re.compile('[0-9] {1,99} [x/+-] [0-9]{1,99}')
+	buscador = separador.search(conta)
+	for item in itens:
+		indice = numeros.find(item)
+		if item != -1:
+			break
+class conta:
+    def __init__(self, primeiro_numero, contador, segundo_numero):
+        self.primeiro_numero = primeiro_numero
+        self.contador = contador
+        self.segundo_numero = segundo_numero
+calc = conta(numeros[:indice], numeros[indice], numeros[indice:])
+print (calc.primeiro_numero)
+print (calc.contador)
+print (calc.segundo_numero)
+
+
+
+----Iteração 4 #funcional, precisa do resolvedor de contas antes de ser passado para web
+
+import re
+
+numeros = input('conta?') 
+itens = ['+','-','x','/']
+catch = False
+
+def calc():
+    separador = re.compile('[0-9] {1,99} [x/+-] [0-9]{1,99}')
+    buscador = separador.search(numeros)
+    for item in itens:
+        indice = numeros.find(item)
+        if indice != -1:
+            primeiro_numero = numeros[:indice]
+            contador = numeros[indice]
+            segundo_numero = numeros[indice + 1:]
+            return primeiro_numero, contador, segundo_numero
+    return None, None, None
+
+primeiro_numero, contador, segundo_numero = calc()
+
+if primeiro_numero is None:
+    print("Nenhum caractere encontrado.")
+else:
+    class conta:
+        def __init__(self, primeiro_numero, contador, segundo_numero):
+            self.primeiro_numero = primeiro_numero
+            self.contador = contador
+            self.segundo_numero = segundo_numero
+
+    calculo = conta(primeiro_numero, contador, segundo_numero)
+    print(calculo.primeiro_numero)
+    print(calculo.contador)
+    print(calculo.segundo_numero)
+
+
+#Nessa versão, uma função separada pega os numeros das contas, permitindo fácil integração a um código HTML e os numeros da conta vem de uma classe própria, permitindo arquivação separada do resto código, valores são mais fácilmente encontrados
+#código para repetição será adicionado diretamente ao main.py, para evitar repetição desnecessária de código
+#código para pegar os numeros das contas será mantido diferente em cada calculadora por motivos de arquivação
+
+
+#adicionar venv para impedir comflitos de versão
+#avance na Orientação a Objetos e consuma API Python: avance na Orientação a Objetos e consuma API    ch 3 para tutorial
+		
