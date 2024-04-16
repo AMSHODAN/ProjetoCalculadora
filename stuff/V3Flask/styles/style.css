@@ -1,0 +1,25 @@
+:root{
+	--cor-primaria: #240A34; /* colorhunt.co para combinações de cores */
+	--cor-secundaria: #EABE6C;
+	--cor-terciaria: #FFEDD8;
+	--cor-hover: #891652;
+	
+	--fonte1:
+	--fonte2:
+	--fonte3:
+}
+
+.centro {
+	background-color: var(--cor-primaria)
+}
+.bemvindo {
+	color: var(--cor-secundaria);
+}
+
+.cabecalho {
+	background-color: var(--cor-hover);
+}
+
+.background {
+	background-color: var(--cor-hover);
+}
