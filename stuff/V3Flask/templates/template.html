@@ -18,21 +18,22 @@
 		</nav>
 	</header>
 	<main class='centro'>
-		<section>
+		<section >
 			<h1 class='bemvindo'>Bem vindo a calculadoraV3!</h1>
 			<a class='instrucoes'>Por favor leia as instruções para melhor experiência</a>
 			<img src='./templates/img.png'>
-			<form>
+			<form class='conta_configs'>
 				<div>
 					<label for="conta">Por favor insira sua conta:</label>
 					<input type="text" id="conta" name="conta" placeholder='Insira sua conta aqui' required>
-					<button onclick= 'v3()' id='butao' name='butao'>calcular</button>
+					<button onclick= 'v3()' id='conta_info' name='conta_info'>calcular</button>
 				</div>
 				
 				<div class='verificar_modo'>
 					<label for='complex'>Modo complexo</label>
 					<input type='checkbox' id='complex' name='verificar_modo' value='complex'>
 				</div>
+			<h2>{{ resultados }}</h2>
 			</form>
 		</section>
 

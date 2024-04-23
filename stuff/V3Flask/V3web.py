@@ -1,11 +1,11 @@
-from flask import Flask, render_template #antes colocar no console pip install flask==2.0.2 para funcionar
+from flask import Flask, render_template, request #antes colocar no console pip install flask==2.0.2 para funcionar
 import re
 
 app = Flask(__name__)
 
 @app.route('/home')
-    def v3():
-    numeros = input('conta?') 
+def v3():
+    numeros = request.form['conta_info'] 
     itens = {'+': lambda x, y: x + y,
                  '-': lambda x, y: x - y,
                  'x': lambda x, y: x * y,
@@ -15,7 +15,7 @@ app = Flask(__name__)
     def calc():
         separador = re.compile('[0-9] {1,99} [x/+-] [0-9]{1,99}') #verifica se o input contém uma conta, impedindo que [abcdef5ghijkl-mnop2] seja usado pelo código
         buscador = separador.search(numeros)
-        if buscador = -1:
+        if buscador == -1:
             print ('conta invalida')
             catch = True
         for item in itens:
@@ -40,6 +40,6 @@ app = Flask(__name__)
 
         calculo = conta(primeiro_numero, contador, segundo_numero)
         resultado = itens[contador](int(primeiro_numero), int(segundo_numero))
-        return render_template('index.html')
+        return render_template('v3submittest.html', resultados=resultado)
 
 V3_local.run()
