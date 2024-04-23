@@ -5,17 +5,17 @@
 V1
 
 
--Modo complexo ativo independente da escolha do usuário
+-Modo complexo ativo independente da escolha do usuário ✔️
 
 
--Input do Modo complexo mesmo após comando para fechar
+-Input do Modo complexo mesmo após comando para fechar ✔️
 
 
 
 V2
 
 
--Erro v2.run(). Funciona corretamente, mas dá esse erro ao finalizar
+-Erro v2.run(). Funciona corretamente, mas dá esse erro ao finalizar ✔️
 
 
 
@@ -41,10 +41,10 @@ V1
 V2
 
 
--Repetidor para fazer contas mais de uma vez
+-Repetidor para fazer contas mais de uma vez ✔️
 
 
--Modo complexo
+-Modo complexo (beta)
 
 
 
