@@ -42,4 +42,5 @@ def v3():
         resultado = itens[contador](int(primeiro_numero), int(segundo_numero))
         return render_template('v3submittest.html', resultados=resultado)
 
+V3_local = v3()
 V3_local.run()

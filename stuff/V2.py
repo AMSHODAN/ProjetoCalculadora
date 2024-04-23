@@ -2,6 +2,7 @@ class V2():
     repetição = True
     while repetição:
         conta = int(input('conta? 00 para fechar'))
+        complexo = int(input('Ver como chegamos ao resultado? [1 para sim] e [2 para não]'))
         itens = {'+': lambda x, y: x + y,
                  '-': lambda x, y: x - y,
                  'x': lambda x, y: x * y,
